@@ -54,15 +54,6 @@ Built with a modular frontend architecture and a scalable Node/Express RESTful b
 
 ---
 
-###  Administration Management
-  * **Centralized Dashboard:** High-level overview of system usage, balances, and system settings.
-  * **Approval Workflows:** Manage and approve incoming student and employee requests.
-<p align="center">
-  <img src="./assets/admin-dashboard.png" alt="Admin Master Dashboard" width="98%" />
-</p>
-
----
-
 ###  Student Portal
   * **Health Score & Balances:** Live calculation of spending health scores and remaining allowance.
   * **Expense Categorization:** Instant breakdown across Education, Food, Transport, and Entertainment.
@@ -81,4 +72,13 @@ Built with a modular frontend architecture and a scalable Node/Express RESTful b
 <p align="center">
   <img src="./assets/emp-dashboard.png" alt="Employee Dashboard - Expense Requests" width="48%" />
   <img src="./assets/emp-dashboard2.png" alt="Employee Dashboard - History" width="48%" />
+</p>
+
+---
+
+###  Administration Management
+  * **Centralized Dashboard:** High-level overview of system usage, balances, and system settings.
+  * **Approval Workflows:** Manage and approve incoming student and employee requests.
+<p align="center">
+  <img src="./assets/admin-dashboard.png" alt="Admin Master Dashboard" width="98%" />
 </p>

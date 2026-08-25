@@ -1,19 +1,46 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧭 CashCompass
 
-Currently, two official plugins are available:
+**A full-stack, feature-rich financial management portal for students, employees, and administrators.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**CashCompass** is a robust, full-stack web application designed to streamline personal budgeting, allowance management, corporate expense claims, and administrative approvals. 
+
+Built with a modular frontend architecture and a scalable Node/Express RESTful backend, the platform features role-based workflows, dynamic analytical dashboards, automated schema validation, and secure authentication methods.
+
+---
+
+
+## 🛠️ Tech Stack & Architecture
+
+### **Frontend**
+* **Core:** React 18, Vite, HTML5, CSS3, JavaScript (ES6+)
+* **UI & Components:** Tailwind CSS, Shadcn UI, Lucide Icons
+* **State Management:** Zustand
+* **Form Handling & Validation:** React Hook Form, Zod Schema Validation
+* **Data Visualization:** Chart.js (with React-Chartjs-2)
+* **Media Management:** Cloudinary API (Receipt & Profile Asset Uploads)
+
+### **Backend**
+* **Environment & Server:** Node.js, Express.js
+* **Routing & Architecture:** Express Router (RESTful API structure)
+* **Database:** MongoDB (Managed locally via MongoDB Compass)
+* **Authentication & Auth Security:** JWT (JSON Web Tokens), Session Storage, Google OAuth 2.0
+
+---
 
 ## 📸 Interface Previews
 

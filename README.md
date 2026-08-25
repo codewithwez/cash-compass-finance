@@ -15,7 +15,6 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-
 ## 📸 Interface Previews
 
 ###  Landing & Public Overview
@@ -29,6 +28,8 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ###  Administration Management
+  * **Centralized Dashboard:** High-level overview of system usage, balances, and system settings.
+  * **Approval Workflows:** Manage and approve incoming student and employee requests.
 <p align="center">
   <img src="./assets/admin-dashboard.png" alt="Admin Master Dashboard" width="98%" />
 </p>
@@ -36,6 +37,9 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ###  Student Portal
+  * **Health Score & Balances:** Live calculation of spending health scores and remaining allowance.
+  * **Expense Categorization:** Instant breakdown across Education, Food, Transport, and Entertainment.
+  * **Upcoming Payments:** Reminders for future expenses like tuition fees, dorm rent, and books.
 <p align="center">
   <img src="./assets/std-dashboard.png" alt="Student Dashboard - Overview" width="32%" />
   <img src="./assets/std-dashboard2.png" alt="Student Dashboard - Analytics" width="32%" />
@@ -45,6 +49,8 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ###  Employee Portal
+  * **Expense Requests:** Submit, track, and review corporate expense claims and reimbursements.
+  * **Transaction History:** Detailed logging of past expenditures and status checks
 <p align="center">
   <img src="./assets/emp-dashboard.png" alt="Employee Dashboard - Expense Requests" width="48%" />
   <img src="./assets/emp-dashboard2.png" alt="Employee Dashboard - History" width="48%" />

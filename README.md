@@ -25,9 +25,9 @@ If you are developing a production application, we recommend using TypeScript wi
 </p>
 
 <p align="center">
-  <img src="./assets/std-dashboard.png" alt="Student Dashboard" width="48%" />
-  <img src="./assets/std-dashboard2.png" alt="Student Dashboard" width="48%" />
-  <img src="./assets/std-dashboard3.png" alt="Student Dashboard" width="48%" />
-  <img src="./assets/emp-dashboard.png" alt="Employee Dashboard" width="48%" />
-  <img src="./assets/emp-dashboard2.png" alt="Employee Dashboard" width="48%" />
+  <img src="./assets/std-dashboard.png" alt="Student Dashboard" width="50%" />
+  <img src="./assets/std-dashboard2.png" alt="Student Dashboard" width="50%" />
+  <img src="./assets/std-dashboard3.png" alt="Student Dashboard" width="50%" />
+  <img src="./assets/emp-dashboard.png" alt="Employee Dashboard" width="50%" />
+  <img src="./assets/emp-dashboard2.png" alt="Employee Dashboard" width="50%" />
 </p>

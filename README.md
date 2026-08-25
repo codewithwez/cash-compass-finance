@@ -18,7 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 📸 Interface Previews
 
-### 🏠 Landing & Public Overview
+###  Landing & Public Overview
 <p align="center">
   <img src="./assets/home-overview1.png" alt="Home Overview - Hero Section" width="98%" />
 </p>
@@ -28,14 +28,14 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
-### 🛡️ Administration Management
+###  Administration Management
 <p align="center">
   <img src="./assets/admin-dashboard.png" alt="Admin Master Dashboard" width="98%" />
 </p>
 
 ---
 
-### 🎓 Student Portal
+###  Student Portal
 <p align="center">
   <img src="./assets/std-dashboard.png" alt="Student Dashboard - Overview" width="48%" />
   <img src="./assets/std-dashboard2.png" alt="Student Dashboard - Analytics" width="48%" />
@@ -46,7 +46,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
-### 💼 Employee Portal
+###  Employee Portal
 <p align="center">
   <img src="./assets/emp-dashboard.png" alt="Employee Dashboard - Expense Requests" width="48%" />
   <img src="./assets/emp-dashboard2.png" alt="Employee Dashboard - History" width="48%" />

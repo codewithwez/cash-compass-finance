@@ -36,12 +36,11 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ###  Student Portal
+### 🎓 Student Portal
 <p align="center">
-  <img src="./assets/std-dashboard.png" alt="Student Dashboard - Overview" width="48%" />
-  <img src="./assets/std-dashboard2.png" alt="Student Dashboard - Analytics" width="48%" />
-</p>
-<p align="center">
-  <img src="./assets/std-dashboard3.png" alt="Student Dashboard - Claims View" width="98%" />
+  <img src="./assets/std-dashboard.png" alt="Student Dashboard - Overview" width="33%" />
+  <img src="./assets/std-dashboard2.png" alt="Student Dashboard - Analytics" width="33%" />
+  <img src="./assets/std-dashboard3.png" alt="Student Dashboard - Claims View" width="33%" />
 </p>
 
 ---

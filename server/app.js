@@ -14,7 +14,7 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Health Check Route
+// Health Check Route (Used by Render for health monitoring)
 app.get("/api/health", (req, res) => {
   res.status(200).json({
     status: "online",

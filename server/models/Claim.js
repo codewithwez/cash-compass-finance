@@ -67,4 +67,4 @@ claimSchema.methods.toClient = function toClient() {
   };
 };
 
-module.exports = mongoose.model("Claim", claimSchema);
+module.exports = mongoose.model("Claim", claimSchema,"claims");

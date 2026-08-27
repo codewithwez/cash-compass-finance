@@ -36,4 +36,4 @@ budgetSchema.methods.toClient = function toClient() {
   };
 };
 
-module.exports = mongoose.model("Budget", budgetSchema);
+module.exports = mongoose.model("Budget", budgetSchema,"budgets");

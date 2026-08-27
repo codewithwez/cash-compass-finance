@@ -28,4 +28,4 @@ payslipSchema.methods.toClient = function toClient() {
   };
 };
 
-module.exports = mongoose.model("Payslip", payslipSchema);
+module.exports = mongoose.model("Payslip", payslipSchema,"payslips");

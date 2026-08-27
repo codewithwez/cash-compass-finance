@@ -127,4 +127,4 @@ userSchema.methods.toClient = function toClient() {
   };
 };
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("User", userSchema,"users");

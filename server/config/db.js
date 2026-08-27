@@ -2,12 +2,22 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    if (!process.env.MONGODB_URI) {
-      throw new Error("MONGODB_URI is missing from the environment.");
+    const uri = process.env.MONGODB_URI || process.env.MONGO_URI;
+
+    if (!uri) {
+      throw new Error("MONGODB_URI is missing from environment variables.");
     }
 
-    const conn = await mongoose.connect(process.env.MONGODB_URI);
-    console.log(`[CashCompass DB] MongoDB Connected: ${conn.connection.host}`);
+    // Enable Mongoose command tracing
+    mongoose.set("debug", (collectionName, method, query, doc) => {
+      console.log(`[MONGO TRACE] -> ${collectionName}.${method}()`);
+    });
+
+    const conn = await mongoose.connect(uri, {
+      dbName: "cashcompass",
+    });
+
+    console.log(`[CashCompass DB] Connected: ${conn.connection.host}`);
   } catch (error) {
     console.error(`[CashCompass DB Error]: ${error.message}`);
     process.exit(1);

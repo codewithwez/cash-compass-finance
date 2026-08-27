@@ -32,4 +32,4 @@ reminderSchema.methods.toClient = function toClient() {
   };
 };
 
-module.exports = mongoose.model("Reminder", reminderSchema);
+module.exports = mongoose.model("Reminder", reminderSchema,"reminders");

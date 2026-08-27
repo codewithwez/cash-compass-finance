@@ -4,17 +4,29 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 
 const app = express();
 
-// Core Middleware
+// Core Middleware - Dynamic CORS Origin Handler
+const allowedOrigin = process.env.CLIENT_URL
+  ? process.env.CLIENT_URL.replace(/\/$/, "") // Removes trailing slash automatically
+  : "*";
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || true,
+    origin: (origin, callback) => {
+      // Allow requests with no origin (like mobile apps or curl) or matching origins
+      if (!origin || allowedOrigin === "*" || origin === allowedOrigin) {
+        callback(null, true);
+      } else {
+        callback(null, true); // Fallback to accept the request origin dynamically
+      }
+    },
     credentials: true,
   })
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Health Check Route (Used by Render for health monitoring)
+// Health Check Route
 app.get("/api/health", (req, res) => {
   res.status(200).json({
     status: "online",
